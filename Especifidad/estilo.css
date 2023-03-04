@@ -1,0 +1,45 @@
+
+.color-red{
+    color: green;
+
+}
+
+
+h1 {
+    color:red;
+}
+
+#h1-titulo {
+    color: yellow;
+
+}
+ h1{ 
+    color: grey!important; 
+ }
+
+
+
+/* NIVELES JERARQUICOS 
+1- !important 
+2- Estilos en linea <h2 style="color:red">
+3- Identificadores id="titulo" #titulo
+4- Clases .color-red
+   Pseudo-clases
+   Atributos [atributo="h1-titulo"]
+5- Elementos h1 - h2 
+   Pseudo-elementos */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Cuando seleccionamos dos veces el mismo elemento, cambia de estilo en cascada.
+Pero tambien podemos seleccionar un elemento y una clase de ese elemento ya no hay cascada, es por nivel de jerarquia. En este caso es mas importante la clase que el elemento */

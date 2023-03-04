@@ -1,0 +1,46 @@
+/*selector { (que es lo que queremos cambiar) 
+    cual es la PROPIEDAD que le vamos a cambiar: valor;
+}
+
+Selector universal * (selecciona todos los elementos)*/
+
+* {
+    color: red;
+}
+
+/*Selectores de tipo (son los que seleccionamos por los nombres de los elementos)*/
+
+h1 {
+    color: blue;
+}
+
+/* Selectores por clase, debemos agregar un class dentro de la etiqueta html, PARA LLAMARLO DENTRO DE CSS TENEMOS QUE PONER UN .Y EL NOMBRE DE LA CLASE*/
+.titulo-h2 {
+    color: green;
+
+}
+
+/*Selectores por ID, primero debemos poner un # y el nombre del id - TIENE QUE SER UNICO (De lo contrario utilizamos class)*/
+#elemento-id {
+    color: pink;
+}
+
+/*Seleccionamos por atributos, para eso abrimos [*/
+[atributo="soytitulo"] {
+    color: grey;
+    }
+
+/*Descentiente tenemos que tener etiquetas adentro de etiquetas (como hijos)*/
+h2 p {
+    color: yellowgreen;
+}
+
+h2 b {
+    color:blueviolet;
+}
+
+/*Pseudo clases :hover */
+
+b:hover {
+    color:brown;
+}

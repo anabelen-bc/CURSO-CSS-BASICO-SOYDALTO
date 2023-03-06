@@ -1,0 +1,38 @@
+* {
+    font-family:'Shantell Sans', cursive;
+} /* De esta manera sacamos el valor que trae por defecto el navegador*/
+
+.contact-form{
+    font-size: 25px;
+   
+}
+
+.contact-from__h2 {
+    font-size: 2em;
+   
+    line-height: 2; /*Tamaño que ocupa la letra*/
+    font-weight: normal; /*Grosor*/
+    color: red;
+    /*font-stretch: normal;
+    font-variant: small-caps;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .contact-from {
+    font-size: 20px;
+}
+
+.contact-from__h2 {
+    font-size: 5em; /*Por defecto del navegador un em son 16 px - Tambien puede tomar medidas por herencia 
+} */

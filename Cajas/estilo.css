@@ -1,0 +1,29 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.contact-form {
+    font-size: 25px;
+}
+
+.contact-from__h2 {
+    font-size: 2em;
+    color: red;
+}
+ 
+h2{
+    display: inline; /*Display transforma los elementos en bloque, en elementos en linea*/ 
+/* height: 400px;
+width: 190px; /*A los elementos en linea no se le pueden dar estas propiedades*/ */ 
+
+}
+
+p {
+    height: 400px;
+    width: 190;
+    padding: 20px;
+}
+
+/* Propiedades de las cajas */

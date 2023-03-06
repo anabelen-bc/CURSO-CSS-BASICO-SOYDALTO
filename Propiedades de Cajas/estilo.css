@@ -1,0 +1,25 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+h2 {
+    background-color: greenyellow;
+    /*Cambia el color de fondo*/
+    display: inline-block;
+    /*Se comporta como un elemento en linea, pero adquiere las propiedades de un elemento en bloque*/
+    padding-bottom: 20px;
+    /*Es una propiedad acortada, Es la distancia que hay entre el texto y la caja*/
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* left:Borde izquierdo;  top:Boder superior;  right: borde derecho; bottom: Borde inferior; */
+
+}
+
+
+
+/* padding: 20px; (Le da un borde de 20 px a todos los lados, es una forma corta de realizarlo)
+padding: 20px 30px; (Le da un bottom y un top de 20 px - arriba y abajo- y le da un left y right de 30 px a los costados (izquierda y derecha)
+padding: 10px 20px 30px 40px; (El primero es el top, la segunda es el right, la tercera al bottom, el cuarto al left. GIRA COMO LAS AGUJAS DEL RELOJ*/

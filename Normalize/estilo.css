@@ -1,0 +1,17 @@
+* {
+    font-family:'Shantell Sans', cursive;
+}
+
+.contact-form{
+    font-size: 25px;  
+}
+
+.contact-from__h2 {
+    font-size: 2em;
+    color: red;
+}
+
+
+
+/*Los navegadores traen un estilo por defecto, para eso usamos el nomalize para reiniciar los estilos*/
+

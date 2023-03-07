@@ -18,11 +18,14 @@ h2 {
     text-align: center;
     margin: 20px 10px;
     /*Marca el espacio que existe entre dos bloques*/
-    border-radius: 2em; /*Por defecto es de 16 px*/
+    border-radius: 2em;
+    /*Por defecto es de 16 px*/
     border: 3px solid green;
-    
-    box-shadow: 2px 4px 15px 5px ;/*Le da sombra a la Caja, moviendonos en eje*/
-text-shadow: 2px 2px 7px #fff;
+
+    box-shadow: 2px 4px 15px 5px;
+    /*Le da sombra a la Caja, moviendonos en eje*/
+    text-shadow: 2px 2px 7px #fff;
+    transform: rotate(-45deg);
 }
 
 /*BOX MODEL - Es el modelo donde trabajamos las cajas, tiene las siguientes propiedades, content, padding, border, margin, estas 4 tienen un orden jerarquico, CONTENT (se modifica con line-height), el PADDING (con padding), BORDER (con border), MARGIN (con margin).

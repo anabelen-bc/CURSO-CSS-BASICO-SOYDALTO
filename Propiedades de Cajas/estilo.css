@@ -9,15 +9,28 @@ h2 {
     /*Cambia el color de fondo*/
     display: inline-block;
     /*Se comporta como un elemento en linea, pero adquiere las propiedades de un elemento en bloque*/
-    padding-bottom: 20px;
+    padding: 100px;
     /*Es una propiedad acortada, Es la distancia que hay entre el texto y la caja*/
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
     /* left:Borde izquierdo;  top:Boder superior;  right: borde derecho; bottom: Borde inferior; */
-
+    /* height: 100px; Largo*/
+    /* width: 300px; /*Ancho*/
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+    /*Marca el espacio que existe entre dos bloques*/
+    border-radius: 2em; /*Por defecto es de 16 px*/
+    border: 3px solid green;
+    
+    box-shadow: 2px 4px 15px 5px ;/*Le da sombra a la Caja, moviendonos en eje*/
+text-shadow: 2px 2px 7px #fff;
 }
 
+/*BOX MODEL - Es el modelo donde trabajamos las cajas, tiene las siguientes propiedades, content, padding, border, margin, estas 4 tienen un orden jerarquico, CONTENT (se modifica con line-height), el PADDING (con padding), BORDER (con border), MARGIN (con margin).
+1-Contenido 
+2-Padding 
+3-Border
+4-Margin
+*/
 
 
 /* padding: 20px; (Le da un borde de 20 px a todos los lados, es una forma corta de realizarlo)

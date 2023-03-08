@@ -15,3 +15,5 @@ div {
     outline: 5px solid red;
     position: relative;
 }
+
+/*El border ocupa un lugar real, mientras que el outline en marca la caja sin quitarnos lugar*/

@@ -1,0 +1,17 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+}
+
+.caja1 {
+    outline: 5px solid red;
+    position: relative;
+}

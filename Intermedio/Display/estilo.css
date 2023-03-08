@@ -1,0 +1,21 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+b {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 10px solid green;
+    background: greenyellow;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+ 
+}
+
+/*Display
+BLOCK E INLINE: son los que trabajamos naturalmente, con los elementos de html (INLINE se usa para textos usualmente)
+INLINE-BLOCK: nos permite darle dimensiones

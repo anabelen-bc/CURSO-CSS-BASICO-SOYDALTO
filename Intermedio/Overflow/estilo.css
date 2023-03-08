@@ -1,0 +1,25 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+p {
+    margin: auto;
+    margin-top: 50px;
+    width: 320px;
+    height: 350;
+    border: 4px solid green;
+    background: grey;
+    overflow: auto;
+}
+
+
+
+
+/*OVERFLOW
+VISIBLE: por defecto
+AUTO: meto todo dentro del contenedor y le da un scroll
+SCROL: obligadamente agrega un scroll al contenedor
+Overflow-y: 
+Overflow-x:

@@ -1,0 +1,24 @@
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+
+
+.cont {
+    width: 500px;
+    border: 2px solid green;
+
+
+
+}
+
+
+
+.cont img {
+    float: right;
+    width: 150px;
+    margin-right: 18px;
+
+}

@@ -1,0 +1,62 @@
+/*Un pseudo-elemento afecta visualmente, pero no en el DOM 
+ESTOS DE AQUI ARRIBITA SI*/
+* {
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.texto {
+    padding: 20px;
+}
+
+.texto::first-line {
+    color: forestgreen;
+   
+}
+
+.texto::first-letter {
+    color: blue;
+    font-size: 20em;
+}
+
+
+
+form {
+    margin: 100px auto;
+    display: block;
+    background-color: #555;
+    padding: 100px;
+    width: 50%;
+}
+
+
+p {
+    padding: 6px;
+    width: 100%;
+}
+
+input::placeholder{
+    color: greenyellow;
+    font-size:10px;
+    background-color: black;
+}
+
+
+p::selection{
+    color: violet;
+    
+}
+
+/*Los elementos que requieren la etiqueta content no forman parte del DOM*/
+
+b::before{
+    content:" an";
+    color:blueviolet;
+
+}
+
+b::after{
+    content:"belen";
+    color:green;
+}

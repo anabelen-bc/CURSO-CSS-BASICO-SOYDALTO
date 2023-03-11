@@ -1,0 +1,90 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s;
+    border: 3px solid violet;
+}
+
+.caja1:hover
+
+/*Pseudoclase que hace que cambie algo cuando pasamos el mouse por arriba*/
+    {
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
+    border: 3px solid blueviolet;
+}
+
+.button1 {
+    padding: 20px;
+    background-color: blueviolet;
+    transition: 0.12;
+    color: #fff;
+}
+
+.button1:hover {
+    padding: 20px;
+    background-color: slateblue;
+    color: #000;
+}
+
+.link1 {
+    margin: 30px;
+    display: block;
+    padding: 20px;
+
+}
+
+.link1:link
+
+/*Pseudoclase que hace que nos aparezca de otro color cuando visitamos un link, o cuando nunca lo hemos visitado*/
+    {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+.caja2 {
+    width: 250px;
+    height: 250px;
+    background: green;
+    margin: 25px;
+    transition: all 1s;
+}
+
+.caja2:active /*Se activa unicamente cuando mantemos presionado el elemento seleccionado*/
+{
+    background: yellowgreen;
+    width: 600px;
+
+}
+
+.cajainput {
+    margin: 25px;
+    transition: all 0.4s, padding 0.4s;
+}
+
+.cajainput:focus /*Se activa unicamente cuando esta en uso*/
+{
+    background: yellowgreen;
+    
+}
+
+.caja3 {
+    margin: 25px;
+}
+
+.caja3 b:lang(en) {
+    background: burlywood;
+    padding: 20px;
+
+}

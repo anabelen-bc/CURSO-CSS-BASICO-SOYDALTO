@@ -1,0 +1,21 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+h1 {
+  color: darksalmon;
+}
+
+.forma1{
+ color: #7fff00;
+}
+
+.forma2{
+color: rgb(143 188 143);
+}
+
+.forma3 {
+    color: rgba(205, 92, 92, .7)
+} /*Rgba, nos sirve para poner el color como en rgb con un parametro mas que es la opacidad*/

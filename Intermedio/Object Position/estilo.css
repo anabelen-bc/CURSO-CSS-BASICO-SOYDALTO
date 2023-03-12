@@ -17,6 +17,7 @@
     height: 100%;
     border: 2px solid green;
     object-fit: cover;
+    object-position: bottom;
     /*Con cover la imagen se ajusta al contenido, con contein es el valor por defecto*/
     /*Se queda con la mejor propiedad*/
 }

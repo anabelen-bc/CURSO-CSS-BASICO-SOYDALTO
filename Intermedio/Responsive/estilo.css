@@ -5,16 +5,28 @@
 }
 
 div {
- width:45%;
+ width:49%;
  display: inline-block;
  padding: 20px;
+ background: #ddd;
 }
 h1{
     font-size: 24px;
 }
 
 
+@media only screen and (max-width: 800px){ 
+    h1 {
+        font-size: 20px;
+    }
+    
+    div{
+        display: block;
+        width: 100%;
+    }
 
+   
+}
 
 
 

@@ -1,0 +1,30 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+div {
+ width:45%;
+ display: inline-block;
+ padding: 20px;
+}
+h1{
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive desing, es un concepto que trabaja con distintas resoluciones.*/
+/*Mobile first, adata de un celular a una tablet o a un escritorio*/

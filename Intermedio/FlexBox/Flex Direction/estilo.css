@@ -1,0 +1,29 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+.flex__container {
+    display: flex;
+    flex-direction: column ;
+    
+}
+
+
+
+.flex__item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+
+}
+
+.orange {
+    background: orange;
+}
+
+
+/*Row- por defecto - va en direccion de la fila*/
+/*Column - Hace que se muevan al eje cross axis*/

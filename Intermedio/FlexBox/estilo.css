@@ -1,0 +1,22 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.flex__container {
+    display: flex;
+    
+}
+
+/*Flexbox cuenta con dos ejes, el main axis que seria nuestro eje x - y el cross axis que seria nuestro eje y*/
+/*Tienen un comienzo y un fin, main strar y el main end - tambien contamos con cross start y cross end*/
+
+.flex__item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+
+}

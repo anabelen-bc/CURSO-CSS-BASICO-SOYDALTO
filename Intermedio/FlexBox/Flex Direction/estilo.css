@@ -5,7 +5,7 @@
 }
 .flex__container {
     display: flex;
-    flex-direction: column ;
+    flex-direction: row-reverse;
     
 }
 
@@ -21,9 +21,10 @@
 }
 
 .orange {
-    background: orange;
+    background-color: orange;
 }
 
 
 /*Row- por defecto - va en direccion de la fila*/
 /*Column - Hace que se muevan al eje cross axis*/
+/*Row-reverse o Column-reserve cambia la direccion en espejo*/

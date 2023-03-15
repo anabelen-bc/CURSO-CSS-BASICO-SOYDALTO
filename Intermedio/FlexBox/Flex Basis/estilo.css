@@ -1,0 +1,42 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.flex__container {
+    display: flex;
+    height: 100vh;
+
+
+}
+
+
+
+.flex__item {
+    background-color: #248;
+    color: #fff;
+
+    min-width: 150px;
+    text-align: center;
+    height: 100px;
+    flex-grow: 1;
+    width: 400px;
+
+}
+
+.orange {
+    background-color: orange;
+    flex-basis: 400px;
+    flex-shrink: 0;
+
+}
+
+.green {
+    background: green;
+    /* flex-shrink: 5
+Flex-shrink sirve para decidir que caja va a ceder lugar cuando no nos alcance el espacio*/
+
+}
+
+/*podemos usar unicamente flex, y el primer parametro que necesita es el grow, el segundo el shrink y el tercero el basis*/

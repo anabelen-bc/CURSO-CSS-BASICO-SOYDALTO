@@ -1,0 +1,76 @@
+
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*Propiendades que se usan en el main axis*/
+.flex__container-around {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.flex__container-between {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.flex__container-evenly{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*Propiedades que se usan en el cross axis*/
+
+.flex__container-center {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-items: center;
+}
+
+.flex__container-flexstart{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.flex__container-flexend{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.flex__container-baseline{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    height: 100vh;
+    align-content: baseline;
+}
+
+.flex__item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    height: 100px;
+    
+
+}
+
+.orange {
+    background: orangered;
+}
+
+.green {
+    background: greenyellow;
+}

@@ -1,0 +1,33 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.flex__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.flex__item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    min-width: 100px;
+    text-align: center;
+    flex: 1;
+
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
+
+/*Flex direction, y flex wrap, se pueden hacer cortitas de la siguiente forma con flex-flow:  y las siguientes propiedades que quieras indicar column wrap;*/

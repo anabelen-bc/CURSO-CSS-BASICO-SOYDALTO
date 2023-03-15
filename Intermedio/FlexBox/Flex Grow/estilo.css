@@ -1,0 +1,35 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.flex__container {
+    display: flex;
+    height: 100vh;
+    flex-wrap:wrap;
+
+}
+
+
+
+.flex__item {
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    min-width: 150px;
+    text-align: center;
+    height: 100px;
+ 
+}
+
+.orange {
+    background-color: orange;
+    flex-grow: 2
+}
+
+.green {
+    background: green;
+    flex-grow: 1
+    
+}

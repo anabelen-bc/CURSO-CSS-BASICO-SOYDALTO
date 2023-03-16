@@ -4,16 +4,24 @@
     font-size: 20px;
 }
 
-body{
+body {
     background: radial-gradient(circle, #fff, #bbb);
-padding: 15px;
+    padding: 15px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: 150px 1fr 1fr;
     grid-template-rows: 150px 150px 150px;
     border: 3px solid #000;
+    grid-gap: 10px;
+    /*La distancia que existe entre las celdas, no del borde del contenedor*/
+    grid-row-gap: 10px;
+    /*La distancia de filas o columnas*/
+    background-color: #333;
 }
+
 .grid-item {
     border: 1px solid #000;
+    background-color: #999;
 }

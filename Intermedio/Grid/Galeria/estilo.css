@@ -1,0 +1,35 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+body {
+    background: radial-gradient(circule, #fff, #bbb);
+    padding: 15px;
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+img:first-child {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+img:nth-child(6){
+    grid-column: 2/4;
+    grid-row: 3/5;
+}

@@ -3,40 +3,23 @@
     font-weight: 100;
     font-size: 20px;
 }
-
-div {
- width:49%;
- display: inline-block;
- padding: 20px;
- background: #ddd;
-}
-h1{
-    font-size: 24px;
+body {
+    background: radial-gradient(circle, #fff, #bbb);
 }
 
+.div-responsive {
+    background: #c95;
+}
 
-@media only screen and (max-width: 800px){ 
-    h1 {
-        font-size: 20px;
+@media screen and (min-width: 400px) and (max-width: 650px) {
+    .div-responsive{
+        background: red;
     }
-    
-    div{
-        display: block;
-        width: 100%;
-    }
-
-   
 }
 
+@media screen and (min-width: 650px) and (max-width: 800px){
+ .div-responsive{
+    background: green;
+ }   
+}
 
-
-
-
-
-
-
-
-
-
-/*Responsive desing, es un concepto que trabaja con distintas resoluciones.*/
-/*Mobile first, adata de un celular a una tablet o a un escritorio*/

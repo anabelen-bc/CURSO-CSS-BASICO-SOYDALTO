@@ -5,14 +5,14 @@
 }
 
 body {
-    background: radial-gradient(circule, #fff, #bbb);
+    background: radial-gradient(circle, #fff, #bbb);
     padding: 15px;
     display: flex;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: 100px;
     grid-gap: 10px;
 }
@@ -24,12 +24,17 @@ img {
 
 }
 
-img:first-child {
-    grid-column: 1/3;
-    grid-row: 1/3;
+img:first-child { 
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
 }
 
 img:nth-child(6){
-    grid-column: 2/4;
-    grid-row: 3/5;
+    grid-column: 2 / 4;
+    grid-row: 3 / 5;
+}
+
+
+img:nth-child(3){
+    grid-column: span 3;
 }

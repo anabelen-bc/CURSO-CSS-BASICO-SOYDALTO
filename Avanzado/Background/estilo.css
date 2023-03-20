@@ -1,0 +1,21 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.container {
+    background: #86f;
+    padding: 20px 5px;
+    width: 350px;
+    height: 200px;
+    margin: 40px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/198/957/184/boca-boca-juniors-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-clip: content-box; la cortas */
+    background-origin: left top;
+    background-origin: content-box; /*la crea a partir de la propiedad*/
+   background-attachment: fixed;
+
+}

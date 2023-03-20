@@ -17,17 +17,18 @@
     display: flex;
     color: #fff;
     transition: transform 1s;
-    transform: skew(30deg)
+    transform: skew(30deg);
     /*transform: translate(50px); /*Nos trasladamos en el eje horizontal - Tambien tenemos translatey() y lo mueve en el eje vertical*/
-/*Clip-path: nos sirve para generar formas, en google encontramos generadores, que lo unico que tenemos que hacer es copiarlo*/
-}
-/*Tambie podemos usar translate(valor, valor) y lo mueve en el eje x e y*/
-.caja:hover{
-    
-/*transform: scaleX(1.8) translate(50px)*/
+    /*Clip-path: nos sirve para generar formas, en google encontramos generadores, que lo unico que tenemos que hacer es copiarlo*/
 }
 
-b{
+/*Tambie podemos usar translate(valor, valor) y lo mueve en el eje x e y*/
+.caja:hover {
+    /*transform: scaleX(1.8) translate(50px)*/
+}
+
+
+b {
     margin: auto;
     transform: skew(-30deg);
 }

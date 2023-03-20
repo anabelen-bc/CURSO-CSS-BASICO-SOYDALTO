@@ -1,0 +1,51 @@
+* {
+    font-family: 'Sen', sans-sen;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.container {
+    background: #86f;
+    padding: 20px 5px;
+}
+
+.caja {
+    background: #025;
+    height: 80px;
+    width: 80px;
+    transition-property: left, background;
+    transition-duration: 3s, 1s;
+    transition-delay: 1s;
+    margin: 20px;
+    position: relative;
+    left: 0;
+}
+
+.container:hover > .caja {
+    left: 80%;
+    background: #fff;
+}
+
+
+.caja:first-child {
+    transition-timing-function: linear;
+    background: inherit;
+    border: 1px solid #000;
+
+}
+
+.caja:nth-child(2){
+    transition-timing-function: ease;
+}
+
+.caja:nth-child(3){
+    transition-timing-function: ease-in;
+}
+
+.caja:nth-child(4){
+    transition-timing-function: ease-out;
+}
+
+.caja:nth-child(5){
+    transition-timing-function: ease-in-out;
+}

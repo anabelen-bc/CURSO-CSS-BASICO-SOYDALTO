@@ -4,15 +4,19 @@
     font-size: 20px;
 }
 
-:root {
-    --color-rojo: #f40;
-    --color-azul-claro: #66f;
-}
+img {
+    /*filter: blur(10px); Desenfoca la imagen*/
+    filter: brightness(2); 
+    filter: contrast(1.5);
+    filter: drop-shadow(10px 10 px 5px #000); /*Se usa cuando las imagenes tienen fondo transparente*/
+    /*filter: grayscale();*/
+    width: 20%;
+    filter: hue-rotate(40deg);
+    filter:invert(100%);
+    filter: opacity( );/*Valores del 1 al 10*/
+    filter: saturate();
+    filter: sepia();
+    
 
 
-div {
-    padding: 30px;
-    height: 150px;
-    width: 150px;
-    margin: 30px;
 }
